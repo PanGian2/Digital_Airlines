@@ -6,7 +6,7 @@ from datetime import timedelta
 from markupsafe import escape
 import json, os, sys
 
-# sys.path.append('./data')
+sys.path.append('./data')
 
 # Connect to our local MongoDB
 mongodb_hostname = os.environ.get("MONGO_HOSTNAME","localhost")
