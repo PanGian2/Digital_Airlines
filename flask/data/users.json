@@ -1,0 +1,45 @@
+{
+    "username": "user1",
+    "fullName": "George Papadopoulos",
+    "email": "gp@gmail.com",
+    "password": "123",
+    "birthDate": "01-01-2002",
+    "country": "Greece",
+    "passportNo": "98765"
+}
+{
+    "username": "user2",
+    "fullName": "Maria Georgiou",
+    "email": "mg@gmail.com",
+    "password": "123",
+    "birthDate": "01-02-2002",
+    "country": "Greece",
+    "passportNo": "87654",
+}
+{
+    "username": "user3",
+    "fullName": "Helen Suarez",
+    "email": "hs@gmail.com",
+    "password": "123",
+    "birthDate": "02-01-2001",
+    "country": "Spain",
+    "passportNo": "13579",
+}
+{
+    "username": "admin1",
+    "fullName": "Nick Giannopoulos",
+    "email": "np@gmail.com",
+    "password": "admin",
+    "birthDate": "01-03-2000",
+    "country": "Greece",
+    "passportNo": "76543",
+}
+{
+    "username": "admin2",
+    "fullName": "Ioanna Androutsou",
+    "email": "ia@gmail.com",
+    "password": "admin",
+    "birthDate": "01-09-2001",
+    "country": "Greece",
+    "passportNo": "23456",
+}
