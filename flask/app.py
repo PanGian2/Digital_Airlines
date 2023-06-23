@@ -53,7 +53,7 @@ def is_admin():
 #Home Route
 @app.route("/", methods=["GET"])
 def home():
-    return "<h1>Welcme to Digital Airlines</h1> <h3>Click <a href='/login'>HERE</a> to login</h3>"
+    return "<h1>Welcome to Digital Airlines</h1> <h3>Click <a href='/login'>HERE</a> to login</h3>"
 
 #Registration route. Method GET returns the form and method POST creates a user
 @app.route("/register", methods=["GET", "POST"])
@@ -391,9 +391,9 @@ def create_flight():
         
         try:
             data["businessTicketCost"] = float(data["businessTicketCost"])
-            data["businessAvailableTickets"] = float(data["businessAvailableTickets"])
+            data["businessAvailableTickets"] = int(data["businessAvailableTickets"])
             data["economyTicketCost"] = float(data["economyTicketCost"])
-            data["economyAvailableTickets"] = float(data["economyAvailableTickets"])
+            data["economyAvailableTickets"] = int(data["economyAvailableTickets"])
         except Exception as e:
             print(e)
             return Response("Bad json content. The available tickets and costs must numbers", status=400, mimetype="application/json")
