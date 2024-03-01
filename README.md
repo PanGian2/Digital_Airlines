@@ -73,6 +73,7 @@ Users are given the option to logout from the system in `/logout'. Simply a logg
 ### Find Flights
 
 Users can search all available flights in the system in `/flights`. This endpoint is common to both ordinary users and administrators. Typing /flights will display the id, departure airport, destination airport and date of all available flights.
+
 ![image](https://github.com/PanGian2/YpoxreotikiErgasia23_e20026_Giannakopoulos_Panagiotis/assets/122677298/c14ba56f-6e20-473e-aeed-06dc2bbb6748)
 
 It is also possible to filter the results using `departAirport` and `destAirport` together, `flightDate`, or all three together as arguments. 
@@ -157,9 +158,9 @@ An ordinary user can cancel a reservation made in his/her account in `/bookings/
 ![image](https://github.com/PanGian2/YpoxreotikiErgasia23_e20026_Giannakopoulos_Panagiotis/assets/122677298/a6d36751-e71f-4edd-8515-026a75c708e6)
 
 
-### Διαγραφή χρήστη
+### Delete user
 
-Ένας απλός χρήστης μπορεί να διαγράψει τον λογαριασμό του στο `/user/delete`. Αρκεί να πάει στο Postman, να επιλέξει την μέθοδο DELETE και ο λογαριασμός του διαγράφεται.
+An ordinary user can delete his account in `/user/delete'. Just go to Postman, select the DELETE method and the account is deleted.
 
 ![image](https://github.com/PanGian2/YpoxreotikiErgasia23_e20026_Giannakopoulos_Panagiotis/assets/122677298/f61f32b9-e473-4ea1-a91e-081e5c1adce6)
 
